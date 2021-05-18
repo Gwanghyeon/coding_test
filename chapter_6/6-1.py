@@ -118,12 +118,12 @@ def insertion_2(array):
 # print(array)
 
 def count_sort(array):
-    count=[0]*(max(array)+1)
+    count = [0]*(max(array)+1)
 
     for i in range(len(array)):
-        count[array[i]]+=1
+        count[array[i]] += 1
 
-    #print the elements of count
+    # print the elements of count
 
     for i in range(len(count)):
         for _ in range(count[i]):
