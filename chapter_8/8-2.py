@@ -20,3 +20,5 @@ print(d[x])
 
 result = [x for x in d if x != 0]
 print(list(enumerate(result)))
+
+#recurrence relation :
